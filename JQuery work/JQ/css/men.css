@@ -1,0 +1,66 @@
+body {
+    background: rgb(244, 244, 244);font-family: Verdana;font-weight: 100;
+}
+/*---Навигация---*/
+
+#menu {
+    width: 200px;
+    margin: 0;
+    padding: 2px;
+}
+#menu li {
+    list-style-type: none;
+}
+.menu {
+    position: relative;
+    background: chocolate;
+    background: -moz-linear-gradient(top, rgb(198, 255, 242), #2AC4B3);
+    background: -webkit-linear-gradient(top, rgb(198, 255, 242), #2AC4B3);
+    background: -o-linear-gradient(top, rgb(198, 255, 242), #2AC4B3);
+    border: 1px solid #2AC4B3;
+}
+.menu:hover {
+    background: #00c;
+    background: -moz-linear-gradient(top, rgb(230, 230, 230), #0CBFAB);
+    background: -webkit-linear-gradient(top, rgb(230, 230, 230), #0CBFAB);
+    background: -o-linear-gradient(top, rgb(230, 230, 230), #0CBFAB);
+}
+.menu span {
+    width: 11px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    cursor: pointer;
+}
+.menu ul {
+    width: 150px;
+    margin: 0;
+    padding: 1px;
+    position: absolute;
+    top: -1px;
+    left: 198px;
+}
+.menu ul li {
+    background: chocolate;
+    background: -moz-linear-gradient(top, rgb(198, 255, 242), #2AC4B3);
+    background: -webkit-linear-gradient(top, rgb(198, 255, 242), #2AC4B3);
+    background: -o-linear-gradient(top, rgb(198, 255, 242), #2AC4B3);
+    border: 1px solid #fff;
+}
+.menu ul li:hover {
+    background: #00c;
+    background: -moz-linear-gradient(top, rgb(230, 230, 230), #0CBFAB);
+    background: -webkit-linear-gradient(top, rgb(230, 230, 230), #0CBFAB);
+    background: -o-linear-gradient(top, rgb(230, 230, 230), #0CBFAB);
+}
+.menu a {
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover {
+    color: white;
+}
